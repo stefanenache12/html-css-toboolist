@@ -15,6 +15,11 @@
     vertical-align: middle;
 }
 
+
+.blue-color{
+    background-color: #47adf1;
+}
+
 /*BODY*/
 
 body{
@@ -25,6 +30,7 @@ body{
 
 header{
     background-color: white;
+    margin-bottom: 20px;
 }
 
 
@@ -32,3 +38,38 @@ h1{
     display: inline-block;
 }
 
+#add-task-menu{
+    width: 75%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#add-task-button{
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 80px;
+    height: 30px;
+}
+
+#add-section-button{
+    background-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+
+.to-do-list{
+    background-color: white;
+    width: 75%;
+    height: 550px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
