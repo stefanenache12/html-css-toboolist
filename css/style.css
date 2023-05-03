@@ -32,6 +32,15 @@
     background-color: orange;
 }
 
+.light-coral-color{
+    background-color: lightcoral;
+}
+
+.light-green-color{
+    background-color: lightgreen;
+}
+
+
 .padding-tasks{
     padding-top: 20px;
 }
@@ -47,11 +56,12 @@
     width: 80px;
     height: 30px;
     color: white;
+    margin-left: 10px;
 }
 /*BODY*/
 
 body{
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(238, 238, 238);
 }
 
 /*HEADER*/
@@ -100,7 +110,7 @@ h1{
 .to-do-list{
     background-color: white;
     width: 75%;
-    height: 800px;
+    height: 700px;
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -133,3 +143,4 @@ h1{
     text-align: center;
     line-height: 20px;
 }
+
