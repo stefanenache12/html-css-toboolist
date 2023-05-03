@@ -20,6 +20,22 @@
     background-color: #47adf1;
 }
 
+.padding-tasks{
+    padding-top: 10px;
+}
+
+.padding-tasks-menu{
+    padding-bottom: 50px;
+}
+
+.buttons-list{
+   
+    border-radius: 15px;
+    border-width: 1px;
+    width: 80px;
+    height: 30px;
+    color: white;
+}
 /*BODY*/
 
 body{
@@ -37,6 +53,8 @@ header{
 h1{
     display: inline-block;
 }
+
+/*ADD TASK MENU*/
 
 #add-task-menu{
     width: 75%;
@@ -65,6 +83,8 @@ h1{
     height: 30px;
 }
 
+/*TO DO LIST*/
+
 .to-do-list{
     background-color: white;
     width: 75%;
@@ -72,4 +92,22 @@ h1{
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding-left: 50px;
 }
+
+.new-task-list{
+    padding-top: 50px;
+    line-height: 20px;
+}
+
+.checked{
+    border-radius: 50%;
+    border: 1px solid green;
+    color: green;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+
+    }
